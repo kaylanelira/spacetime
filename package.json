@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "lucide-react": "^0.220.0"
+  },
+  "devDependencies": {
+    "react-native-svg-transformer": "^1.0.0"
   }
 }

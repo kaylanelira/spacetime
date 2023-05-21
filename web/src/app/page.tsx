@@ -28,7 +28,7 @@ export default function Home() {
 
       {/* copyright */}
       <div className="text-sm leading-relaxed text-gray-200">
-      Feito por <a className="underline hover:text-gray-100" href="https://github.com/kaylanelira" target="blank" rel="noreferrer">@kaylanelira</a> com 💜 com base no NLW da <a className="underline hover:text-gray-100" href="https://rocketseat.com.br" target="blank" rel="noreferrer">Rocketseat</a>
+      Feito por <a className="underline hover:text-gray-100" href="https://github.com/kaylanelira" target="blank" rel="noreferrer">@kaylanelira</a> com base no NLW da <a className="underline hover:text-gray-100" href="https://rocketseat.com.br" target="blank" rel="noreferrer">Rocketseat</a>
       </div>
     </div>
     {/* Right */}

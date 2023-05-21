@@ -1,5 +1,8 @@
 {
   "extends": [
     "@rockectseat/eslint-config/react"
-  ]
+  ],
+  "rules": {
+    "camelcase": "off",
+  }
 }
