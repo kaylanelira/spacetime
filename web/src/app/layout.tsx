@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { ReactNode } from 'react'
 import { 
   Roboto_Flex as Roboto, 
   Bai_Jamjuree as BaiJamjuree 
@@ -10,17 +10,19 @@ const baiJamjuree = BaiJamjuree({ subsets: ['latin'], weight: '700', variable: '
 
 export const metadata = {
   title: 'spacetime',
-  description: 'A time capsule build with, React, Next.js, TailwindCSS and TypeScript',
+  description: 'Uma cápsula do tempo construída com React, Next.js, TailwindCSS e Typescript.',
 }
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${baiJamjuree.variable} bg-gray-900 font-sanss text-gray-100`}>{children}</body>
+      <body className={`${roboto.variable} ${baiJamjuree.variable} bg-gray-900 font-sanss text-gray-100`}>
+        {children}
+      </body>
     </html>
   )
 }

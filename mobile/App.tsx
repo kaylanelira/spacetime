@@ -10,9 +10,9 @@ import {
   BaiJamjuree_700Bold,
 } from '@expo-google-fonts/bai-jamjuree'
 
-import blurbg from './src/assets/bg-blur.png'
+import blurBg from './src/assets/bg-blur.png'
 import Stripes from './src/assets/stripes.svg'
-import { styled } from 'nativewind';
+import { styled } from 'nativewind'
 
 const StyledStripes = styled(Stripes)
 
@@ -24,13 +24,13 @@ export default function App() {
   })
 
   if (!hasLoadedFonts) {
-    return null;
+    return null
   }
 
   return (
     <ImageBackground
-     source={blurbg} 
-     className="relative px-8 bg-gray-950 flex-1 items-center"
+     source={blurBg} 
+     className="relative px-8 bg-gray-950 flex-1 items-center bg-gray-900 px-8 py-10"
      imageStyle={{ position: 'absolute', left: '-100%' }}
      >
       <StyledStripes className="absolute left-2"/>
